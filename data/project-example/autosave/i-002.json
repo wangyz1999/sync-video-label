@@ -1,0 +1,1633 @@
+{
+  "instanceId": "i-002",
+  "instanceName": "ARC Raiders",
+  "videoPaths": [
+    "data/project-example/videos/m_i001_v0_arcraider_2617443894.mp4",
+    "data/project-example/videos/m_i001_v1_arcraider_2617454253.mp4",
+    "data/project-example/videos/m_i001_v2_arcraider_2617461450.mp4"
+  ],
+  "videoDuration": 30.016,
+  "labels": [
+    {
+      "id": "pred-i-002-2",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 5,
+      "caption": "active weapon is Hullcracker",
+      "stateType": "active weapon is Hullcracker",
+      "lexicalDistractors": [
+        "active weapon is Pistol",
+        "active weapon is Knife"
+      ]
+    },
+    {
+      "id": "pred-i-002-3",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 2,
+      "caption": "aiming down sights at an enemy drone",
+      "lexicalDistractors": [
+        "hip-firing at an enemy drone",
+        "aiming down sights at a friendly drone"
+      ]
+    },
+    {
+      "id": "pred-i-002-4",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 1,
+      "caption": "firing a shot at the enemy",
+      "lexicalDistractors": [
+        "firing a shot at a teammate",
+        "holding fire near the enemy"
+      ]
+    },
+    {
+      "id": "pred-i-002-5",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 1,
+      "caption": "ammo count is 21",
+      "stateType": "ammo count is 21",
+      "lexicalDistractors": [
+        "ammo count is 0",
+        "ammo count is 100"
+      ]
+    },
+    {
+      "id": "pred-i-002-6",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 1,
+      "endTime": 2,
+      "caption": "ammo count is 20",
+      "stateType": "ammo count is 20",
+      "lexicalDistractors": [
+        "ammo count is full",
+        "ammo count is 5"
+      ]
+    },
+    {
+      "id": "pred-i-002-8",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 3,
+      "endTime": 5,
+      "caption": "taking cover behind a rusted truck cab",
+      "lexicalDistractors": [
+        "vaulting over a rusted truck cab",
+        "standing exposed in front of a rusted truck cab"
+      ]
+    },
+    {
+      "id": "pred-i-002-9",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 5,
+      "endTime": 7,
+      "caption": "aiming upwards at a flying drone",
+      "lexicalDistractors": [
+        "aiming downwards at a ground unit",
+        "looking away from the flying drone"
+      ]
+    },
+    {
+      "id": "pred-i-002-10",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 6,
+      "endTime": 7,
+      "caption": "shooting the flying drone",
+      "lexicalDistractors": [
+        "repairing the flying drone",
+        "shooting the stationary turret"
+      ]
+    },
+    {
+      "id": "pred-i-002-11",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 6,
+      "endTime": 8,
+      "caption": "ammo count is 5",
+      "stateType": "ammo count is 5",
+      "lexicalDistractors": [
+        "ammo count is 30",
+        "ammo count is empty"
+      ]
+    },
+    {
+      "id": "pred-i-002-12",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 8,
+      "endTime": 10,
+      "caption": "cocking the weapon handle",
+      "lexicalDistractors": [
+        "dropping the weapon",
+        "inspecting the weapon magazine"
+      ]
+    },
+    {
+      "id": "pred-i-002-13",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 10,
+      "endTime": 12,
+      "caption": "tracking the falling drone in the sky",
+      "lexicalDistractors": [
+        "ignoring the falling drone in the sky",
+        "tracking the rising missile in the sky"
+      ]
+    },
+    {
+      "id": "pred-i-002-14",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 10,
+      "endTime": 15,
+      "caption": "location is East Elevator",
+      "stateType": "location is East Elevator",
+      "lexicalDistractors": [
+        "location is West Hallway",
+        "location is Roof Access"
+      ]
+    },
+    {
+      "id": "pred-i-002-15",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 12,
+      "endTime": 13,
+      "caption": "shooting the falling drone causing an explosion",
+      "lexicalDistractors": [
+        "missing the falling drone entirely",
+        "repairing the falling drone"
+      ]
+    },
+    {
+      "id": "pred-i-002-16",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 12,
+      "endTime": 13,
+      "caption": "ammo count is 4",
+      "stateType": "ammo count is 4",
+      "lexicalDistractors": [
+        "ammo count is 50",
+        "ammo count is infinite"
+      ]
+    },
+    {
+      "id": "pred-i-002-17",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 18,
+      "endTime": 19,
+      "caption": "shooting an explosive round at enemies",
+      "lexicalDistractors": [
+        "shooting a healing round at enemies",
+        "throwing a smoke grenade at enemies"
+      ]
+    },
+    {
+      "id": "pred-i-002-18",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 20,
+      "endTime": 23,
+      "caption": "running towards the crash site",
+      "lexicalDistractors": [
+        "running away from the crash site",
+        "walking slowly towards the crash site"
+      ]
+    },
+    {
+      "id": "pred-i-002-19",
+      "type": "OA",
+      "videoIndex": 0,
+      "startTime": 20,
+      "endTime": 22,
+      "caption": "running past the player on the right side",
+      "lexicalDistractors": [
+        "running past the player on the left side",
+        "standing still next to the player"
+      ]
+    },
+    {
+      "id": "pred-i-002-20",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 21,
+      "endTime": 25,
+      "caption": "reloading the weapon",
+      "lexicalDistractors": [
+        "firing the weapon",
+        "inspecting the weapon"
+      ]
+    },
+    {
+      "id": "pred-i-002-21",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 20,
+      "endTime": 24,
+      "caption": "location is Spaceport Main Grounds",
+      "stateType": "location is Spaceport Main Grounds",
+      "lexicalDistractors": [
+        "location is Underground Tunnels",
+        "location is Control Room"
+      ]
+    },
+    {
+      "id": "pred-i-002-22",
+      "type": "OA",
+      "videoIndex": 0,
+      "startTime": 23,
+      "endTime": 25,
+      "caption": "standing near the debris",
+      "lexicalDistractors": [
+        "running away from the debris",
+        "lying prone near the debris"
+      ]
+    },
+    {
+      "id": "pred-i-002-23",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 25,
+      "endTime": 26,
+      "caption": "jumping over a metal pipe",
+      "lexicalDistractors": [
+        "crawling under a metal pipe",
+        "standing on top of a metal pipe"
+      ]
+    },
+    {
+      "id": "pred-i-002-24",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 25,
+      "endTime": 30,
+      "caption": "ammo has 22 bullets left",
+      "stateType": "ammo has 22 bullets left",
+      "lexicalDistractors": [
+        "ammo has 0 bullets left",
+        "ammo has 100 bullets left"
+      ]
+    },
+    {
+      "id": "pred-i-002-25",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 27,
+      "endTime": 30,
+      "caption": "walking forward following a teammate",
+      "lexicalDistractors": [
+        "walking backward away from a teammate",
+        "sprinting past a teammate"
+      ]
+    },
+    {
+      "id": "pred-i-002-26",
+      "type": "OA",
+      "videoIndex": 0,
+      "startTime": 27,
+      "endTime": 30,
+      "caption": "running ahead towards the building",
+      "lexicalDistractors": [
+        "retreating away from the building",
+        "standing still near the building"
+      ]
+    },
+    {
+      "id": "pred-i-002-27",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 5,
+      "caption": "a rusted truck chassis",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a brand new truck chassis",
+        "a destroyed tank chassis"
+      ]
+    },
+    {
+      "id": "pred-i-002-28",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 6,
+      "caption": "a large concrete tower",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a small wooden shed",
+        "a broken concrete wall"
+      ]
+    },
+    {
+      "id": "pred-i-002-29",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 6,
+      "endTime": 13,
+      "caption": "a large hostile drone",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a tiny friendly drone",
+        "a destroyed stationary turret"
+      ]
+    },
+    {
+      "id": "pred-i-002-30",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 9,
+      "endTime": 12,
+      "caption": "a pink laser beam fires",
+      "lexicalDistractors": [
+        "a blue laser beam fires",
+        "a smoke grenade deploys"
+      ]
+    },
+    {
+      "id": "pred-i-002-31",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 13,
+      "endTime": 16,
+      "caption": "an aerial explosion happen",
+      "lexicalDistractors": [
+        "a ground implosion happens",
+        "smoke rises quietly"
+      ]
+    },
+    {
+      "id": "pred-i-002-32",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 13,
+      "endTime": 16,
+      "caption": "the 'Destroyed ARC' notification appears",
+      "lexicalDistractors": [
+        "the 'Objective Complete' notification appears",
+        "the 'Mission Failed' notification appears"
+      ]
+    },
+    {
+      "id": "pred-i-002-33",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 15,
+      "endTime": 19,
+      "caption": "debris and small drones",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "clear ground and no drones",
+        "intact machinery and large mechs"
+      ]
+    },
+    {
+      "id": "pred-i-002-34",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 16,
+      "endTime": 20,
+      "caption": "thick dust and smoke rises",
+      "lexicalDistractors": [
+        "clear air and sunshine appears",
+        "rain and fog descends"
+      ]
+    },
+    {
+      "id": "pred-i-002-35",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 18,
+      "endTime": 22,
+      "caption": "the 'Spaceport Main Grounds' location text appears",
+      "lexicalDistractors": [
+        "the 'Tutorial Area' location text appears",
+        "the 'Game Over' text appears"
+      ]
+    },
+    {
+      "id": "pred-i-002-36",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 21,
+      "endTime": 26,
+      "caption": "rusted railway tracks",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "pristine maglev tracks",
+        "broken paved road"
+      ]
+    },
+    {
+      "id": "pred-i-002-37",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 25,
+      "endTime": 30,
+      "caption": "an industrial complex background",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a natural forest background",
+        "a city skyline background"
+      ]
+    },
+    {
+      "id": "pred-i-002-38",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 26,
+      "endTime": 29,
+      "caption": "a location marker appears",
+      "lexicalDistractors": [
+        "a location marker disappears",
+        "an enemy marker appears"
+      ]
+    },
+    {
+      "id": "pred-i-002-39",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 0,
+      "endTime": 4,
+      "caption": "shooting at enemies with a scoped rifle",
+      "lexicalDistractors": [
+        "shooting at teammates with a scoped rifle",
+        "healing enemies with a medical kit"
+      ]
+    },
+    {
+      "id": "pred-i-002-40",
+      "type": "SS",
+      "videoIndex": 1,
+      "startTime": 0,
+      "endTime": 4,
+      "caption": "active weapon is a rifle",
+      "stateType": "active weapon is a rifle",
+      "lexicalDistractors": [
+        "active weapon is a pistol",
+        "active weapon is a knife"
+      ]
+    },
+    {
+      "id": "pred-i-002-41",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 5,
+      "endTime": 6,
+      "caption": "opening the inventory menu",
+      "lexicalDistractors": [
+        "closing the inventory menu",
+        "opening the settings menu"
+      ]
+    },
+    {
+      "id": "pred-i-002-42",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 6,
+      "endTime": 10,
+      "caption": "aiming at a flying drone in the sky",
+      "lexicalDistractors": [
+        "aiming at a tank on the ground",
+        "ignoring a flying drone in the sky"
+      ]
+    },
+    {
+      "id": "pred-i-002-43",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 11,
+      "endTime": 12,
+      "caption": "shooting down the large flying drone",
+      "lexicalDistractors": [
+        "repairing the large flying drone",
+        "shooting down the small bird"
+      ]
+    },
+    {
+      "id": "pred-i-002-44",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 13,
+      "endTime": 16,
+      "caption": "watching the drone explode and crash",
+      "lexicalDistractors": [
+        "watching the drone land safely",
+        "ignoring the drone flying away"
+      ]
+    },
+    {
+      "id": "pred-i-002-45",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 16,
+      "endTime": 17,
+      "caption": "switching weapon to a pistol",
+      "lexicalDistractors": [
+        "switching weapon to a rocket launcher",
+        "holstering the pistol"
+      ]
+    },
+    {
+      "id": "pred-i-002-46",
+      "type": "SS",
+      "videoIndex": 1,
+      "startTime": 17,
+      "endTime": 30,
+      "caption": "active weapon is a pistol",
+      "stateType": "active weapon is a pistol",
+      "lexicalDistractors": [
+        "active weapon is a rifle",
+        "active weapon is a grenade"
+      ]
+    },
+    {
+      "id": "pred-i-002-47",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 17,
+      "endTime": 21,
+      "caption": "shooting at small flying drones",
+      "lexicalDistractors": [
+        "shooting at large ground vehicles",
+        "scanning friendly drones"
+      ]
+    },
+    {
+      "id": "pred-i-002-48",
+      "type": "SA",
+      "videoIndex": 1,
+      "startTime": 22,
+      "endTime": 30,
+      "caption": "running along the dirt road",
+      "lexicalDistractors": [
+        "crawling along the dirt road",
+        "running along the paved highway"
+      ]
+    },
+    {
+      "id": "pred-i-002-49",
+      "type": "OA",
+      "videoIndex": 1,
+      "startTime": 27,
+      "endTime": 29,
+      "caption": "suggesting a location via ping",
+      "lexicalDistractors": [
+        "canceling a location ping",
+        "marking an enemy via ping"
+      ]
+    },
+    {
+      "id": "pred-i-002-50",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 0,
+      "endTime": 5,
+      "caption": "a flying drone in the sky",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a ground vehicle on the road",
+        "a crashed drone on the ground"
+      ]
+    },
+    {
+      "id": "pred-i-002-51",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 0,
+      "endTime": 4,
+      "caption": "a large rusted industrial machine",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a small pristine household appliance",
+        "a new shiny machine"
+      ]
+    },
+    {
+      "id": "pred-i-002-52",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 0,
+      "endTime": 5,
+      "caption": "a large concrete building in the distance",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a small wooden shack nearby",
+        "a large steel bridge in the distance"
+      ]
+    },
+    {
+      "id": "pred-i-002-53",
+      "type": "WE",
+      "videoIndex": 1,
+      "startTime": 2,
+      "endTime": 4,
+      "caption": "a red light emits from the drone",
+      "lexicalDistractors": [
+        "a blue light emits from the drone",
+        "a red light fades from the drone"
+      ]
+    },
+    {
+      "id": "pred-i-002-54",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 6,
+      "endTime": 12,
+      "caption": "a large concrete pillar structure labeled A6",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a small wooden fence structure labeled B2",
+        "a broken concrete wall"
+      ]
+    },
+    {
+      "id": "pred-i-002-55",
+      "type": "WE",
+      "videoIndex": 1,
+      "startTime": 7,
+      "endTime": 11,
+      "caption": "a red laser beam connects a drone to the tower",
+      "lexicalDistractors": [
+        "a blue laser beam disconnects from the tower",
+        "a green light flashes on the tower"
+      ]
+    },
+    {
+      "id": "pred-i-002-56",
+      "type": "WE",
+      "videoIndex": 1,
+      "startTime": 12,
+      "endTime": 14,
+      "caption": "an explosion happen in the sky",
+      "lexicalDistractors": [
+        "an implosion happen on the ground",
+        "smoke clears in the sky"
+      ]
+    },
+    {
+      "id": "pred-i-002-57",
+      "type": "WE",
+      "videoIndex": 1,
+      "startTime": 14,
+      "endTime": 17,
+      "caption": "a massive dust cloud rises from the ground",
+      "lexicalDistractors": [
+        "a tiny puff of smoke dissipates",
+        "rain falls to the ground"
+      ]
+    },
+    {
+      "id": "pred-i-002-58",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 17,
+      "endTime": 19,
+      "caption": "a group of small flying drones",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a single large ground vehicle",
+        "a group of stationary turrets"
+      ]
+    },
+    {
+      "id": "pred-i-002-59",
+      "type": "WE",
+      "videoIndex": 1,
+      "startTime": 19,
+      "endTime": 20,
+      "caption": "an explosion happen in the air",
+      "lexicalDistractors": [
+        "a firework fizzles on the ground",
+        "a cloud forms in the air"
+      ]
+    },
+    {
+      "id": "pred-i-002-60",
+      "type": "WE",
+      "videoIndex": 1,
+      "startTime": 20,
+      "endTime": 22,
+      "caption": "another explosion happen in the air",
+      "lexicalDistractors": [
+        "a bird flies silently in the air",
+        "smoke clears from the air"
+      ]
+    },
+    {
+      "id": "pred-i-002-61",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 21,
+      "endTime": 30,
+      "caption": "a large industrial concrete building",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a small residential wooden house",
+        "a collapsed metal shed"
+      ]
+    },
+    {
+      "id": "pred-i-002-62",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 23,
+      "endTime": 26,
+      "caption": "a black car parked on the road",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a white truck driving on the road",
+        "a red motorcycle parked on the grass"
+      ]
+    },
+    {
+      "id": "pred-i-002-63",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 23,
+      "endTime": 27,
+      "caption": "a stop sign",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a yield sign",
+        "a speed limit sign"
+      ]
+    },
+    {
+      "id": "pred-i-002-64",
+      "type": "WE",
+      "videoIndex": 1,
+      "startTime": 24,
+      "endTime": 26,
+      "caption": "the 'Spaceport Main Grounds' location notification appears",
+      "lexicalDistractors": [
+        "the 'Spaceport Main Grounds' location notification disappears",
+        "the 'Downtown' location notification appears"
+      ]
+    },
+    {
+      "id": "pred-i-002-66",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 0,
+      "endTime": 7,
+      "caption": "active weapon is RENEGADE",
+      "stateType": "active weapon is RENEGADE",
+      "lexicalDistractors": [
+        "active weapon is PISTOL",
+        "active weapon is UNARMED"
+      ]
+    },
+    {
+      "id": "pred-i-002-67",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 0,
+      "endTime": 13,
+      "caption": "ammo has 8 bullets left",
+      "stateType": "ammo has 8 bullets left",
+      "lexicalDistractors": [
+        "ammo has 0 bullets left",
+        "ammo is fully loaded"
+      ]
+    },
+    {
+      "id": "pred-i-002-69",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 0,
+      "endTime": 5,
+      "caption": "aiming weapon towards the distant structure",
+      "lexicalDistractors": [
+        "lowering weapon away from the distant structure",
+        "aiming weapon towards the nearby teammates"
+      ]
+    },
+    {
+      "id": "pred-i-002-70",
+      "type": "OA",
+      "videoIndex": 2,
+      "startTime": 0,
+      "endTime": 4,
+      "caption": "firing a continuous red laser beam at enemies",
+      "lexicalDistractors": [
+        "healing allies with a green beam",
+        "firing a pulsed blue laser beam at the sky"
+      ]
+    },
+    {
+      "id": "pred-i-002-71",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 7,
+      "endTime": 9,
+      "caption": "opening the inventory menu",
+      "lexicalDistractors": [
+        "closing the inventory menu",
+        "opening the map screen"
+      ]
+    },
+    {
+      "id": "pred-i-002-72",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 7,
+      "endTime": 9,
+      "caption": "inventory screen is visible",
+      "stateType": "inventory screen is visible",
+      "lexicalDistractors": [
+        "inventory screen is hidden",
+        "map screen is visible"
+      ]
+    },
+    {
+      "id": "pred-i-002-73",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 9,
+      "endTime": 30,
+      "caption": "active weapon is RENEGADE",
+      "stateType": "active weapon is RENEGADE",
+      "lexicalDistractors": [
+        "active weapon is SNIPER",
+        "active weapon is KNIFE"
+      ]
+    },
+    {
+      "id": "pred-i-002-74",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 9,
+      "endTime": 13,
+      "caption": "running towards the battlefield",
+      "lexicalDistractors": [
+        "running away from the battlefield",
+        "walking slowly backwards"
+      ]
+    },
+    {
+      "id": "pred-i-002-75",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 13,
+      "endTime": 14,
+      "caption": "shooting the flying enemy drone",
+      "lexicalDistractors": [
+        "ignoring the flying enemy drone",
+        "repairing the flying friendly drone"
+      ]
+    },
+    {
+      "id": "pred-i-002-76",
+      "type": "OA",
+      "videoIndex": 2,
+      "startTime": 13,
+      "endTime": 14,
+      "caption": "exploding in the air",
+      "lexicalDistractors": [
+        "falling safely to the ground",
+        "hovering silently in the air"
+      ]
+    },
+    {
+      "id": "pred-i-002-77",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 14,
+      "endTime": 17,
+      "caption": "ammo has 7 bullets left",
+      "stateType": "ammo has 7 bullets left",
+      "lexicalDistractors": [
+        "ammo has 30 bullets left",
+        "ammo is completely empty"
+      ]
+    },
+    {
+      "id": "pred-i-002-78",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 14,
+      "endTime": 15,
+      "caption": "pumping the shotgun weapon",
+      "lexicalDistractors": [
+        "dropping the shotgun weapon",
+        "firing the shotgun weapon repeatedly"
+      ]
+    },
+    {
+      "id": "pred-i-002-79",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 15,
+      "endTime": 17,
+      "caption": "aiming at the falling debris",
+      "lexicalDistractors": [
+        "looking away from the falling debris",
+        "aiming at the rising balloon"
+      ]
+    },
+    {
+      "id": "pred-i-002-80",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 17,
+      "endTime": 18,
+      "caption": "shooting at the falling object",
+      "lexicalDistractors": [
+        "catching the falling object",
+        "ignoring the rising object"
+      ]
+    },
+    {
+      "id": "pred-i-002-81",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 18,
+      "endTime": 19,
+      "caption": "ammo has 6 bullets left",
+      "stateType": "ammo has 6 bullets left",
+      "lexicalDistractors": [
+        "ammo has 100 bullets left",
+        "ammo count is increasing"
+      ]
+    },
+    {
+      "id": "pred-i-002-82",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 19,
+      "endTime": 20,
+      "caption": "shooting at the structure causing an explosion",
+      "lexicalDistractors": [
+        "shooting at the structure causing a repair",
+        "ignoring the structure completely"
+      ]
+    },
+    {
+      "id": "pred-i-002-83",
+      "type": "OA",
+      "videoIndex": 2,
+      "startTime": 19,
+      "endTime": 21,
+      "caption": "exploding massively",
+      "lexicalDistractors": [
+        "fizzling out quietly",
+        "imploding rapidly"
+      ]
+    },
+    {
+      "id": "pred-i-002-84",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 20,
+      "endTime": 30,
+      "caption": "ammo has 5 bullets left",
+      "stateType": "ammo has 5 bullets left",
+      "lexicalDistractors": [
+        "ammo has 20 bullets left",
+        "ammo is full"
+      ]
+    },
+    {
+      "id": "pred-i-002-85",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 21,
+      "endTime": 26,
+      "caption": "running towards teammates",
+      "lexicalDistractors": [
+        "running away from teammates",
+        "running towards enemy combatants"
+      ]
+    },
+    {
+      "id": "pred-i-002-86",
+      "type": "OA",
+      "videoIndex": 2,
+      "startTime": 21,
+      "endTime": 25,
+      "caption": "walking nearby on the sand",
+      "lexicalDistractors": [
+        "running far away on the grass",
+        "standing still on the concrete"
+      ]
+    },
+    {
+      "id": "pred-i-002-87",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 26,
+      "endTime": 27,
+      "caption": "sliding on the ground",
+      "lexicalDistractors": [
+        "jumping in the air",
+        "standing still on the ground"
+      ]
+    },
+    {
+      "id": "pred-i-002-88",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 27,
+      "endTime": 29,
+      "caption": "approaching the loot object",
+      "lexicalDistractors": [
+        "moving away from the loot object",
+        "destroying the loot object"
+      ]
+    },
+    {
+      "id": "pred-i-002-89",
+      "type": "SS",
+      "videoIndex": 2,
+      "startTime": 27,
+      "endTime": 29,
+      "caption": "interaction prompt is visible",
+      "stateType": "interaction prompt is visible",
+      "lexicalDistractors": [
+        "interaction prompt is hidden",
+        "reload prompt is visible"
+      ]
+    },
+    {
+      "id": "pred-i-002-90",
+      "type": "SA",
+      "videoIndex": 2,
+      "startTime": 29,
+      "endTime": 30,
+      "caption": "searching the loot container",
+      "lexicalDistractors": [
+        "ignoring the loot container",
+        "locking the loot container"
+      ]
+    },
+    {
+      "id": "pred-i-002-91",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 0,
+      "endTime": 6,
+      "caption": "a large rusted trailer unit",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a small pristine trailer unit",
+        "a new wooden shed unit"
+      ]
+    },
+    {
+      "id": "pred-i-002-92",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 0,
+      "endTime": 15,
+      "caption": "a tall concrete tower structure",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a short wooden shack structure",
+        "a collapsed concrete ruin"
+      ]
+    },
+    {
+      "id": "pred-i-002-93",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 1,
+      "endTime": 4,
+      "caption": "red scanning laser beams appear",
+      "lexicalDistractors": [
+        "blue healing beams appear",
+        "red scanning laser beams vanish"
+      ]
+    },
+    {
+      "id": "pred-i-002-94",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 3,
+      "endTime": 5,
+      "caption": "a red enemy drone flying near the tower",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a blue friendly drone flying near the tower",
+        "a red enemy drone crashed on the ground"
+      ]
+    },
+    {
+      "id": "pred-i-002-95",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 7,
+      "endTime": 8,
+      "caption": "the inventory menu screen appears",
+      "lexicalDistractors": [
+        "the inventory menu screen closes",
+        "the pause menu screen appears"
+      ]
+    },
+    {
+      "id": "pred-i-002-96",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 8,
+      "endTime": 13,
+      "caption": "a rusty industrial machine",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a shiny modern machine",
+        "a broken wooden crate"
+      ]
+    },
+    {
+      "id": "pred-i-002-97",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 14,
+      "endTime": 15,
+      "caption": "an explosion destroys a flying drone",
+      "lexicalDistractors": [
+        "a repair beam restores a flying drone",
+        "an explosion misses the flying drone"
+      ]
+    },
+    {
+      "id": "pred-i-002-98",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 14,
+      "endTime": 16,
+      "caption": "the '+100 Destroyed ARC' notification appears",
+      "lexicalDistractors": [
+        "the 'Mission Failed' notification appears",
+        "the '+100 Destroyed ARC' notification fades"
+      ]
+    },
+    {
+      "id": "pred-i-002-99",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 15,
+      "endTime": 17,
+      "caption": "an explosion occurs on the ground near the tower",
+      "lexicalDistractors": [
+        "an explosion occurs in the sky far from the tower",
+        "a flower blooms on the ground near the tower"
+      ]
+    },
+    {
+      "id": "pred-i-002-100",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 16,
+      "endTime": 19,
+      "caption": "a small hostile flying drone",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a large friendly ground robot",
+        "a giant neutral floating balloon"
+      ]
+    },
+    {
+      "id": "pred-i-002-101",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 19,
+      "endTime": 21,
+      "caption": "a massive fiery explosion fills the sky",
+      "lexicalDistractors": [
+        "a small puff of smoke appears in the sky",
+        "a clear blue sky appears"
+      ]
+    },
+    {
+      "id": "pred-i-002-102",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 20,
+      "endTime": 26,
+      "caption": "thick black smoke rises from the explosions",
+      "lexicalDistractors": [
+        "white steam rises from the vents",
+        "thick black smoke clears from the area"
+      ]
+    },
+    {
+      "id": "pred-i-002-103",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 21,
+      "endTime": 28,
+      "caption": "a long metal pipeline running along the ground",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a short plastic tube hanging from the ceiling",
+        "a broken wooden fence running along the ground"
+      ]
+    },
+    {
+      "id": "pred-i-002-104",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 24,
+      "endTime": 27,
+      "caption": "a building with an Oviedo sign",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a building with a Stop sign",
+        "a tent with no signage"
+      ]
+    },
+    {
+      "id": "pred-i-002-105",
+      "type": "WO",
+      "videoIndex": 2,
+      "startTime": 27,
+      "endTime": 29,
+      "caption": "a black lootable object on the ground",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a white decorative object on the ceiling",
+        "a red explosive barrel on the ground"
+      ]
+    },
+    {
+      "id": "pred-i-002-106",
+      "type": "WE",
+      "videoIndex": 2,
+      "startTime": 28,
+      "endTime": 29,
+      "caption": "the search interaction prompt appears",
+      "lexicalDistractors": [
+        "the search interaction prompt disappears",
+        "the attack warning prompt appears"
+      ]
+    },
+    {
+      "id": "1766560733079-qa8lc4fhc",
+      "type": "WO",
+      "videoIndex": 1,
+      "startTime": 9,
+      "endTime": 10,
+      "caption": "驱蚊器",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "请问企鹅"
+      ]
+    }
+  ],
+  "sceneDistractors": [
+    {
+      "id": "distractor-i-002-1",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "throwing a grenade at the drones"
+    },
+    {
+      "id": "distractor-i-002-2",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "using a medical item to heal"
+    },
+    {
+      "id": "distractor-i-002-3",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "switching to a secondary weapon"
+    },
+    {
+      "id": "distractor-i-002-4",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "crouching behind the rusted truck"
+    },
+    {
+      "id": "distractor-i-002-5",
+      "type": "SS",
+      "videoIndex": 0,
+      "caption": "health is critically low"
+    },
+    {
+      "id": "distractor-i-002-6",
+      "type": "SS",
+      "videoIndex": 0,
+      "caption": "stamina is completely depleted"
+    },
+    {
+      "id": "distractor-i-002-7",
+      "type": "SS",
+      "videoIndex": 0,
+      "caption": "vision is obscured by flashbang"
+    },
+    {
+      "id": "distractor-i-002-8",
+      "type": "OA",
+      "videoIndex": 0,
+      "caption": "reviving a downed squadmate"
+    },
+    {
+      "id": "distractor-i-002-9",
+      "type": "OA",
+      "videoIndex": 0,
+      "caption": "driving a vehicle through the area"
+    },
+    {
+      "id": "distractor-i-002-10",
+      "type": "OA",
+      "videoIndex": 0,
+      "caption": "deploying a defensive shield turret"
+    },
+    {
+      "id": "distractor-i-002-11",
+      "type": "OS",
+      "videoIndex": 0,
+      "caption": "teammate is incapacitated"
+    },
+    {
+      "id": "distractor-i-002-12",
+      "type": "OS",
+      "videoIndex": 0,
+      "caption": "ally is piloting a mech"
+    },
+    {
+      "id": "distractor-i-002-13",
+      "type": "OS",
+      "videoIndex": 0,
+      "caption": "enemy drone is shielded"
+    },
+    {
+      "id": "distractor-i-002-14",
+      "type": "WO",
+      "videoIndex": 0,
+      "caption": "a ground-based walker enemy"
+    },
+    {
+      "id": "distractor-i-002-15",
+      "type": "WO",
+      "videoIndex": 0,
+      "caption": "a lootable supply chest"
+    },
+    {
+      "id": "distractor-i-002-16",
+      "type": "WO",
+      "videoIndex": 0,
+      "caption": "an incoming drop pod"
+    },
+    {
+      "id": "distractor-i-002-17",
+      "type": "WO",
+      "videoIndex": 0,
+      "caption": "a driveable jeep"
+    },
+    {
+      "id": "distractor-i-002-18",
+      "type": "WE",
+      "videoIndex": 0,
+      "caption": "a sandstorm reduces visibility"
+    },
+    {
+      "id": "distractor-i-002-19",
+      "type": "WE",
+      "videoIndex": 0,
+      "caption": "an extraction ship lands nearby"
+    },
+    {
+      "id": "distractor-i-002-20",
+      "type": "WE",
+      "videoIndex": 0,
+      "caption": "the mission timer expires"
+    },
+    {
+      "id": "distractor-i-002-21",
+      "type": "SA",
+      "videoIndex": 1,
+      "caption": "throwing a flashbang grenade"
+    },
+    {
+      "id": "distractor-i-002-22",
+      "type": "SA",
+      "videoIndex": 1,
+      "caption": "using a medical kit"
+    },
+    {
+      "id": "distractor-i-002-23",
+      "type": "SA",
+      "videoIndex": 1,
+      "caption": "switching to a sniper rifle"
+    },
+    {
+      "id": "distractor-i-002-24",
+      "type": "SA",
+      "videoIndex": 1,
+      "caption": "meleeing a drone"
+    },
+    {
+      "id": "distractor-i-002-25",
+      "type": "SS",
+      "videoIndex": 1,
+      "caption": "health is critically low"
+    },
+    {
+      "id": "distractor-i-002-26",
+      "type": "SS",
+      "videoIndex": 1,
+      "caption": "ammo is completely empty"
+    },
+    {
+      "id": "distractor-i-002-27",
+      "type": "SS",
+      "videoIndex": 1,
+      "caption": "vision is obscured by poison gas"
+    },
+    {
+      "id": "distractor-i-002-28",
+      "type": "OA",
+      "videoIndex": 1,
+      "caption": "reviving a downed teammate"
+    },
+    {
+      "id": "distractor-i-002-29",
+      "type": "OA",
+      "videoIndex": 1,
+      "caption": "deploying a defensive shield"
+    },
+    {
+      "id": "distractor-i-002-30",
+      "type": "OA",
+      "videoIndex": 1,
+      "caption": "driving a vehicle"
+    },
+    {
+      "id": "distractor-i-002-31",
+      "type": "OS",
+      "videoIndex": 1,
+      "caption": "teammate is incapacitated"
+    },
+    {
+      "id": "distractor-i-002-32",
+      "type": "OS",
+      "videoIndex": 1,
+      "caption": "enemy is stunned"
+    },
+    {
+      "id": "distractor-i-002-33",
+      "type": "OS",
+      "videoIndex": 1,
+      "caption": "teammate is driving"
+    },
+    {
+      "id": "distractor-i-002-34",
+      "type": "WO",
+      "videoIndex": 1,
+      "caption": "a giant walker mech"
+    },
+    {
+      "id": "distractor-i-002-35",
+      "type": "WO",
+      "videoIndex": 1,
+      "caption": "a stationary turret"
+    },
+    {
+      "id": "distractor-i-002-36",
+      "type": "WO",
+      "videoIndex": 1,
+      "caption": "a glowing loot chest"
+    },
+    {
+      "id": "distractor-i-002-37",
+      "type": "WE",
+      "videoIndex": 1,
+      "caption": "a sandstorm rolls in"
+    },
+    {
+      "id": "distractor-i-002-38",
+      "type": "WE",
+      "videoIndex": 1,
+      "caption": "an extraction ship lands"
+    },
+    {
+      "id": "distractor-i-002-39",
+      "type": "WE",
+      "videoIndex": 1,
+      "caption": "night falls"
+    },
+    {
+      "id": "distractor-i-002-40",
+      "type": "SA",
+      "videoIndex": 2,
+      "caption": "switching to a secondary weapon"
+    },
+    {
+      "id": "distractor-i-002-41",
+      "type": "SA",
+      "videoIndex": 2,
+      "caption": "using a health pack"
+    },
+    {
+      "id": "distractor-i-002-42",
+      "type": "SA",
+      "videoIndex": 2,
+      "caption": "throwing a fragmentation grenade"
+    },
+    {
+      "id": "distractor-i-002-43",
+      "type": "SS",
+      "videoIndex": 2,
+      "caption": "health is critically low"
+    },
+    {
+      "id": "distractor-i-002-44",
+      "type": "SS",
+      "videoIndex": 2,
+      "caption": "stamina is fully depleted"
+    },
+    {
+      "id": "distractor-i-002-45",
+      "type": "SS",
+      "videoIndex": 2,
+      "caption": "inventory is full"
+    },
+    {
+      "id": "distractor-i-002-46",
+      "type": "OA",
+      "videoIndex": 2,
+      "caption": "reviving a downed teammate"
+    },
+    {
+      "id": "distractor-i-002-47",
+      "type": "OA",
+      "videoIndex": 2,
+      "caption": "entering a vehicle"
+    },
+    {
+      "id": "distractor-i-002-48",
+      "type": "OA",
+      "videoIndex": 2,
+      "caption": "deploying a defensive shield"
+    },
+    {
+      "id": "distractor-i-002-49",
+      "type": "OS",
+      "videoIndex": 2,
+      "caption": "teammate is incapacitated"
+    },
+    {
+      "id": "distractor-i-002-50",
+      "type": "OS",
+      "videoIndex": 2,
+      "caption": "ally health is critical"
+    },
+    {
+      "id": "distractor-i-002-51",
+      "type": "OS",
+      "videoIndex": 2,
+      "caption": "squadmate is disconnected"
+    },
+    {
+      "id": "distractor-i-002-52",
+      "type": "WO",
+      "videoIndex": 2,
+      "caption": "an enemy tank"
+    },
+    {
+      "id": "distractor-i-002-53",
+      "type": "WO",
+      "videoIndex": 2,
+      "caption": "a stationary turret"
+    },
+    {
+      "id": "distractor-i-002-54",
+      "type": "WO",
+      "videoIndex": 2,
+      "caption": "an ammo resupply crate"
+    },
+    {
+      "id": "distractor-i-002-55",
+      "type": "WE",
+      "videoIndex": 2,
+      "caption": "a sandstorm begins"
+    },
+    {
+      "id": "distractor-i-002-56",
+      "type": "WE",
+      "videoIndex": 2,
+      "caption": "an extraction ship arrives"
+    },
+    {
+      "id": "distractor-i-002-57",
+      "type": "WE",
+      "videoIndex": 2,
+      "caption": "a boss enemy spawns"
+    }
+  ],
+  "lastModified": "2026-03-23T22:47:35.513Z"
+}

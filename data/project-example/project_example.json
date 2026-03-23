@@ -1,0 +1,22 @@
+{
+  "name": "Project Example",
+  "folder": "data/project-example",
+  "instances": [
+    {
+      "id": "i-001",
+      "name": "Apex",
+      "videos": [
+        "data/project-example/videos/s_i000_v0_apex_m2oaUiUe83U.mp4"
+      ]
+    },
+    {
+      "id": "i-002",
+      "name": "ARC Raiders",
+      "videos": [
+        "data/project-example/videos/m_i001_v0_arcraider_2617443894.mp4",
+        "data/project-example/videos/m_i001_v1_arcraider_2617454253.mp4",
+        "data/project-example/videos/m_i001_v2_arcraider_2617461450.mp4"
+      ]
+    }
+  ]
+}

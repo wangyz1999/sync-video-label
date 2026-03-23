@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+
+__pycache__/
+*.mp4
+python_script/questions/*.csv
+python_script/questions/*.png
+python_script/questions/question_videos_v1
+python_script/questions/question_video_frames_v1
+python_script/questions/question_videos_v2
+python_script/questions/question_video_frames_v2
+python_script/questions/question_videos_v3
+python_script/questions/question_video_frames_v3
+python_script/benchmark/results_back_up/
+python_script/benchmark/results_v1/
+python_script/benchmark/results_v2/
+python_script/benchmark/results_v3/
+python_script/benchmark/results_judged_v1/
+python_script/benchmark/results_judged_v2/
+python_script/benchmark/results_judged_v3/
+python_script/benchmark/evaluation/plots_pdf/
+python_script/benchmark/evaluation/plots_png/
+python_script/benchmark/evaluation/plots_svg/
+python_script/benchmark/evaluation/evaluation_results_backup/
+python_script/benchmark/evaluation/evaluation_plots_backup/
+python_script/language_priors_log/
+python_script/questions/all_question_codes.txt
+python_script/questions/question_codes_hierarchy.json
+python_script/benchmark/evaluation/error_analysis.jsonl
+python_script/questions/question_viewer/temp_upload.csv

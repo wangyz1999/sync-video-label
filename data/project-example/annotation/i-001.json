@@ -1,0 +1,322 @@
+{
+  "instanceId": "i-001",
+  "instanceName": "Apex",
+  "videoPaths": [
+    "data/project-example/videos/s_i000_v0_apex_m2oaUiUe83U.mp4"
+  ],
+  "videoDuration": 20,
+  "labels": [
+    {
+      "id": "pred-i-001-1",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 12,
+      "caption": "health is not full",
+      "stateType": "health is not full",
+      "lexicalDistractors": [
+        "health is full",
+        "shield is low"
+      ]
+    },
+    {
+      "id": "pred-i-001-2",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 3,
+      "caption": "shield is empty",
+      "stateType": "shield is empty",
+      "lexicalDistractors": [
+        "shield is full",
+        "health is empty"
+      ]
+    },
+    {
+      "id": "pred-i-001-3",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 3,
+      "caption": "looting items from a death box",
+      "lexicalDistractors": [
+        "dropping items into a death box",
+        "shooting at a death box"
+      ]
+    },
+    {
+      "id": "pred-i-001-5",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 4,
+      "endTime": 12,
+      "caption": "using a med kit",
+      "lexicalDistractors": [
+        "pinging a med kit"
+      ]
+    },
+    {
+      "id": "pred-i-001-9",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 12,
+      "endTime": 16,
+      "caption": "traveling through the phase runner",
+      "lexicalDistractors": [
+        "camping near the phase runner"
+      ]
+    },
+    {
+      "id": "pred-i-001-11",
+      "type": "OA",
+      "videoIndex": 0,
+      "startTime": 11,
+      "endTime": 12,
+      "caption": "enters portal",
+      "lexicalDistractors": [
+        "placing portal"
+      ]
+    },
+    {
+      "id": "pred-i-001-14",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 1,
+      "caption": "a death box",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a respawn beacon"
+      ]
+    },
+    {
+      "id": "pred-i-001-16",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 1,
+      "endTime": 3,
+      "caption": "the looting interface appears",
+      "lexicalDistractors": [
+        "the big map interface appears"
+      ]
+    },
+    {
+      "id": "pred-i-001-17",
+      "type": "WE",
+      "videoIndex": 0,
+      "startTime": 3,
+      "endTime": 4,
+      "caption": "the 'Squad Wipe' notification appears",
+      "lexicalDistractors": [
+        "the 'Champion' notification appears",
+        "the 'Round Won' notification appears"
+      ]
+    },
+    {
+      "id": "pred-i-001-18",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 7,
+      "endTime": 13,
+      "caption": "a dimensional rift portal",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "a jump pad"
+      ]
+    },
+    {
+      "id": "pred-i-001-19",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 4,
+      "endTime": 9,
+      "caption": "large circular futuristic buildings",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "small rustic cabins"
+      ]
+    },
+    {
+      "id": "pred-i-001-24",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 18,
+      "endTime": 20,
+      "caption": "orange supply bin",
+      "quantity": 3
+    },
+    {
+      "id": "1766603911464-fqbnycs7o",
+      "type": "WO",
+      "videoIndex": 0,
+      "startTime": 0,
+      "endTime": 6,
+      "caption": "smokes",
+      "quantity": 1,
+      "lexicalDistractors": [
+        "fires"
+      ]
+    },
+    {
+      "id": "1766604261637-k4b0mdjv3",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 12,
+      "endTime": 20,
+      "caption": "full health",
+      "stateType": "full health",
+      "lexicalDistractors": [
+        "health is full",
+        "shield is low"
+      ]
+    },
+    {
+      "id": "1766605325342-6yjmbgklm",
+      "type": "SA",
+      "videoIndex": 0,
+      "startTime": 9,
+      "endTime": 10,
+      "caption": "droping a med kit"
+    },
+    {
+      "id": "1766654597802-o8492b88z",
+      "type": "SS",
+      "videoIndex": 0,
+      "startTime": 3,
+      "endTime": 20,
+      "caption": "shield is full",
+      "stateType": "shield is full"
+    }
+  ],
+  "sceneDistractors": [
+    {
+      "id": "distractor-i-001-1",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "reloading the G7 Scout rifle"
+    },
+    {
+      "id": "distractor-i-001-2",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "throwing a thermite grenade"
+    },
+    {
+      "id": "distractor-i-001-3",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "activating the ultimate cloaking ability"
+    },
+    {
+      "id": "distractor-i-001-4",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "pinging an enemy location"
+    },
+    {
+      "id": "distractor-i-001-5",
+      "type": "SS",
+      "videoIndex": 0,
+      "caption": "player is knocked down"
+    },
+    {
+      "id": "distractor-i-001-7",
+      "type": "SS",
+      "videoIndex": 0,
+      "caption": "magazine is empty"
+    },
+    {
+      "id": "distractor-i-001-8",
+      "type": "OA",
+      "videoIndex": 0,
+      "caption": "firing at a distant enemy squad"
+    },
+    {
+      "id": "distractor-i-001-9",
+      "type": "OA",
+      "videoIndex": 0,
+      "caption": "reviving a downed teammate"
+    },
+    {
+      "id": "distractor-i-001-10",
+      "type": "OA",
+      "videoIndex": 0,
+      "caption": "deploying a health drone"
+    },
+    {
+      "id": "distractor-i-001-11",
+      "type": "OA",
+      "videoIndex": 0,
+      "caption": "looting a supply bin"
+    },
+    {
+      "id": "distractor-i-001-13",
+      "type": "OS",
+      "videoIndex": 0,
+      "caption": "enemy is self-reviving"
+    },
+    {
+      "id": "distractor-i-001-14",
+      "type": "OS",
+      "videoIndex": 0,
+      "caption": "performing a finisher"
+    },
+    {
+      "id": "distractor-i-001-15",
+      "type": "WO",
+      "videoIndex": 0,
+      "caption": "a care package"
+    },
+    {
+      "id": "distractor-i-001-16",
+      "type": "WO",
+      "videoIndex": 0,
+      "caption": "a mobile respawn beacon"
+    },
+    {
+      "id": "distractor-i-001-18",
+      "type": "WO",
+      "videoIndex": 0,
+      "caption": "a jump tower balloon"
+    },
+    {
+      "id": "distractor-i-001-19",
+      "type": "WE",
+      "videoIndex": 0,
+      "caption": "an orbital bombardment strikes"
+    },
+    {
+      "id": "distractor-i-001-20",
+      "type": "WE",
+      "videoIndex": 0,
+      "caption": "the champion squad is eliminated"
+    },
+    {
+      "id": "distractor-i-001-21",
+      "type": "WE",
+      "videoIndex": 0,
+      "caption": "the ring closes on the player"
+    },
+    {
+      "id": "distractor-1766603597425-to2q27dsm",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "inspecting the held weapon"
+    },
+    {
+      "id": "distractor-1766603614340-bpflx2qbm",
+      "type": "SA",
+      "videoIndex": 0,
+      "caption": "charging shield with a battery"
+    },
+    {
+      "id": "distractor-1766605242799-r5gdj7kfm",
+      "type": "SS",
+      "videoIndex": 0,
+      "caption": "equipped a purple shield"
+    }
+  ],
+  "causalRelations": [],
+  "customQuestions": [],
+  "lastModified": "2026-03-23T22:47:33.467Z"
+}
