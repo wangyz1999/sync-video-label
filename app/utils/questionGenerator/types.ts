@@ -400,8 +400,13 @@ export type Level3CrossVideoCode =
   | `V${number}-${EventType}2V${number}-${EventType}-EXIST-CrossVideo`;
 
 // POV-ID: Identity & Attribution - Which video corresponds to player who did X?
-// Only SA (Self Action) is supported
-export type Level3PovIdCode = 'SA-POV-ID';
+export type Level3PovIdCode =
+  | 'SA-POV-ID'
+  | 'SS-POV-ID'
+  | 'OA-POV-ID'
+  | 'OS-POV-ID'
+  | 'WO-POV-ID'
+  | 'WE-POV-ID';
 
 // ORDER: Temporal Ordering Across Videos - Which sequence is correct? (MV = Multi-Video)
 export type Level3OrderCode = 'SA-ORDER-MV' | 'OA-ORDER-MV' | 'WE-ORDER-MV' | 'MIX-ORDER-MV';
