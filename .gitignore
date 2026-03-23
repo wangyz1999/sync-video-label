@@ -42,7 +42,6 @@ next-env.d.ts
 
 
 __pycache__/
-*.mp4
 python_script/questions/*.csv
 python_script/questions/*.png
 python_script/questions/question_videos_v1
