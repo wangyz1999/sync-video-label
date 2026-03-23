@@ -45,9 +45,20 @@ export async function POST(request: NextRequest) {
       questionCount: data.questions.length,
     });
   } catch (error) {
+    if (isReadonlyFilesystemError(error)) {
+      return NextResponse.json({ error: 'readonly', readonly: true }, { status: 503 });
+    }
     console.error('Error saving questions:', error);
     return NextResponse.json({ error: 'Failed to save questions' }, { status: 500 });
   }
+}
+
+function isReadonlyFilesystemError(error: unknown): boolean {
+  if (error && typeof error === 'object' && 'code' in error) {
+    const code = (error as { code: string }).code;
+    return code === 'EROFS' || code === 'EACCES';
+  }
+  return false;
 }
 
 // GET - List available question files or get specific file

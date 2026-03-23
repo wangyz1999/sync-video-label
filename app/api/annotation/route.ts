@@ -31,6 +31,14 @@ async function ensureDir(dir: string) {
   }
 }
 
+function isReadonlyFilesystemError(error: unknown): boolean {
+  if (error && typeof error === 'object' && 'code' in error) {
+    const code = (error as { code: string }).code;
+    return code === 'EROFS' || code === 'EACCES';
+  }
+  return false;
+}
+
 // GET - Load annotation, prediction, autosave, or check status of multiple instances
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
@@ -116,6 +124,9 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ success: true, filePath: relativePath });
   } catch (error) {
+    if (isReadonlyFilesystemError(error)) {
+      return NextResponse.json({ error: 'readonly', readonly: true }, { status: 503 });
+    }
     console.error('Error saving annotation:', error);
     return NextResponse.json({ error: 'Failed to save annotation' }, { status: 500 });
   }

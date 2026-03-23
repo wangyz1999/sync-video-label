@@ -82,9 +82,20 @@ export async function POST(request: NextRequest) {
       lastSaved: data.lastSaved,
     });
   } catch (error) {
+    if (isReadonlyFilesystemError(error)) {
+      return NextResponse.json({ error: 'readonly', readonly: true }, { status: 503 });
+    }
     console.error('Error saving autosave:', error);
     return NextResponse.json({ error: 'Failed to save autosave' }, { status: 500 });
   }
+}
+
+function isReadonlyFilesystemError(error: unknown): boolean {
+  if (error && typeof error === 'object' && 'code' in error) {
+    const code = (error as { code: string }).code;
+    return code === 'EROFS' || code === 'EACCES';
+  }
+  return false;
 }
 
 // DELETE - Delete autosave for an instance

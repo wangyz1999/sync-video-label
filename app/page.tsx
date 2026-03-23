@@ -351,7 +351,10 @@ export default function Home() {
       clearCausalRelations();
       clearCustomQuestions();
       resetAutoSave();
-      toast.success('Example project loaded', `${projectData.instances.length} instance(s) ready for labeling`);
+      toast.success(
+        'Example project loaded',
+        `${projectData.instances.length} instance(s) ready for labeling`
+      );
     } catch (error) {
       console.error('Example project load error:', error);
       toast.error('Load failed', 'Could not load the example project');
@@ -439,6 +442,16 @@ export default function Home() {
         toast.success('Annotation saved', result.filePath);
         // Also trigger autosave to keep the autosave file in sync
         await autoSave();
+      } else if (response.status === 503) {
+        const result = await response.json().catch(() => ({}));
+        if (result.readonly) {
+          toast.info(
+            'Demo mode — read-only',
+            'This is a public demo. Clone the repo and run locally to save annotations.'
+          );
+        } else {
+          throw new Error('Failed to save');
+        }
       } else {
         throw new Error('Failed to save');
       }
@@ -571,6 +584,18 @@ export default function Home() {
             projectFolder: currentInstance?.projectFolder,
           }),
         });
+
+        if (response.status === 503) {
+          const result = await response.json().catch(() => ({}));
+          if (result.readonly) {
+            toast.info(
+              'Demo mode — read-only',
+              'This is a public demo. Clone the repo and run locally to save files.'
+            );
+            return;
+          }
+          throw new Error('Failed to save questions');
+        }
 
         if (!response.ok) {
           throw new Error('Failed to save questions');
@@ -820,7 +845,9 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="flex items-center text-slate-600 font-medium text-sm select-none">or</div>
+                  <div className="flex items-center text-slate-600 font-medium text-sm select-none">
+                    or
+                  </div>
 
                   {/* Load example */}
                   <div

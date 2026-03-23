@@ -76,6 +76,8 @@ export function useAutoSave({
         if (onStatusUpdate) {
           onStatusUpdate(currentInstance.id, 'in-progress');
         }
+      } else if (response.status === 503) {
+        // Read-only filesystem (e.g. Vercel demo deployment) — silently skip
       }
     } catch (error) {
       console.error('Auto-save error:', error);
