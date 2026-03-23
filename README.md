@@ -1,4 +1,4 @@
-# Multi-Video Timeline Captioner
+# GameplayQA Multi-Video Timeline Captioner
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.1-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61dafb?logo=react)
@@ -8,9 +8,18 @@
 
 A local web tool for annotating and captioning multiple synchronized videos on a shared timeline.
 
+## Live Demo
+
+Try it instantly — no setup required: **[https://sync-video-label.vercel.app](https://sync-video-label.vercel.app)**
+
+Click the **"Load Example Project"** button on the landing page to explore the app with a pre-loaded dataset.
+
+> Note: The demo is read-only. Saving annotations and exporting files requires running the app locally. Video files are purposely made low quality to save file size.
+
 ## Quick Start
 
 1. Install
+
 ```bash
 npm install
 npm run dev
@@ -19,7 +28,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 2. Download data
-Download [project-example](https://drive.google.com/drive/u/0/folders/1ce3YJj6-Iqof0bKTz1mHjzZebFSxGrqf), and place it under `data/project-example`
+   Download [project-example](https://drive.google.com/drive/u/0/folders/1ce3YJj6-Iqof0bKTz1mHjzZebFSxGrqf), and place it under `data/project-example`
 3. Create a `.env.local` file in the project root, enter api keys
 4. Import `project_example.json`, and you should be able to see the videos. Click the "Generate" button to test AI functionalities.
 
