@@ -16,11 +16,10 @@ This tool was built to support the paper **[GAMEPLAYQA: A Decision-Dense POV-Syn
   <img src="public/interface_single.jpg" alt="Single-video interface" width="48%" />
 </div>
 
-## Demo Video
-
-<div align="center">
+<div align="left">
+  </br>
   <a href="https://www.youtube.com/watch?v=PKedELJ4XT0">
-    <img src="https://img.youtube.com/vi/PKedELJ4XT0/maxresdefault.jpg" alt="Demo Video" width="80%" />
+    <img src="https://img.shields.io/badge/Watch%20Demo%20Video%20on%20YouTube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo Video on YouTube" />
   </a>
 </div>
 
