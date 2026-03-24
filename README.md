@@ -6,12 +6,22 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06b6d4?logo=tailwindcss)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-sync--video--label.vercel.app-brightgreen?logo=vercel)](https://sync-video-label.vercel.app)
+[![Project Page](https://img.shields.io/badge/Project%20Page-gameplayqa-blue?logo=github)](https://hats-ict.github.io/gameplayqa/)
+[![Demo Video](https://img.shields.io/badge/Demo%20Video-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=PKedELJ4XT0)
 
-This tool was built to support the paper **[GAMEPLAYQA: A Decision-Dense POV-Synced Multi-Video Understanding Benchmark of 3D Virtual Agents](https://arxiv.org/abs/2505.00000)**. Check out the original paper for more details on the dataset and benchmark.
+This tool was built to support the paper **[GAMEPLAYQA: A Decision-Dense POV-Synced Multi-Video Understanding Benchmark of 3D Virtual Agents](https://arxiv.org/abs/2505.00000)**. Check out the [project website](https://hats-ict.github.io/gameplayqa/) for more details on the dataset and benchmark.
 
 <div align="center">
   <img src="public/interface_multi.jpg" alt="Multi-video interface" width="48%" />
   <img src="public/interface_single.jpg" alt="Single-video interface" width="48%" />
+</div>
+
+## Demo Video
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=PKedELJ4XT0">
+    <img src="https://img.youtube.com/vi/PKedELJ4XT0/maxresdefault.jpg" alt="Demo Video" width="80%" />
+  </a>
 </div>
 
 ## Live Demo
@@ -20,7 +30,7 @@ A live demo is hosted here: **[https://sync-video-label.vercel.app](https://sync
 
 Click the **"Load Example Project"** button on the landing page to explore the app with a pre-loaded dataset.
 
-> Note: The demo is read-only. Saving annotations and exporting files requires running the app locally. Video files are purposely made low quality to save file size.
+> Note: The demo is read-only. Saving annotations and exporting files requires running the app locally. Video files are purposely made low quality to reduce file size.
 
 ## Quick Start
 
