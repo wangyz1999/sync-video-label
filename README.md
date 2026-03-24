@@ -5,12 +5,18 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06b6d4?logo=tailwindcss)
 ![License](https://img.shields.io/badge/License-MIT-green)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-sync--video--label.vercel.app-brightgreen?logo=vercel)](https://sync-video-label.vercel.app)
 
-A local web tool for annotating and captioning multiple synchronized videos on a shared timeline.
+This tool was built to support the paper **[GAMEPLAYQA: A Decision-Dense POV-Synced Multi-Video Understanding Benchmark of 3D Virtual Agents](https://arxiv.org/abs/2505.00000)**. Check out the original paper for more details on the dataset and benchmark.
+
+<div align="center">
+  <img src="public/interface_multi.jpg" alt="Multi-video interface" width="48%" />
+  <img src="public/interface_single.jpg" alt="Single-video interface" width="48%" />
+</div>
 
 ## Live Demo
 
-Try it instantly — no setup required: **[https://sync-video-label.vercel.app](https://sync-video-label.vercel.app)**
+A live demo is hosted here: **[https://sync-video-label.vercel.app](https://sync-video-label.vercel.app)**
 
 Click the **"Load Example Project"** button on the landing page to explore the app with a pre-loaded dataset.
 
@@ -18,7 +24,7 @@ Click the **"Load Example Project"** button on the landing page to explore the a
 
 ## Quick Start
 
-1. Install
+### 1. Install and run
 
 ```bash
 npm install
@@ -27,10 +33,23 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-2. Download data
-   Download [project-example](https://drive.google.com/drive/u/0/folders/1ce3YJj6-Iqof0bKTz1mHjzZebFSxGrqf), and place it under `data/project-example`
-3. Create a `.env.local` file in the project root, enter api keys
-4. Import `project_example.json`, and you should be able to see the videos. Click the "Generate" button to test AI functionalities.
+### 2. Try the example project
+
+The example project is included in this repo. Check out `data/project-example/videos/` for sample videos and `data/project-example/project_example.json` as a reference for the project file format.
+
+You can also directly see it in the Live Demo link above.
+
+### 3. Import your own data
+
+1. Prepare your video files and a `project.json` following the formats described in [Data Folder Structure](#data-folder-structure) and [Project File Format](#project-file-format). Only the project folder, video files, and the JSON file are required — all other folders are created automatically.
+2. Rename `.env.local.example` to `.env.local` and fill in your API keys for [OpenRouter](https://openrouter.ai/) or [Google AI Studio](https://aistudio.google.com/):
+
+```env
+OPENROUTER_API_KEY=
+GOOGLE_API_KEY=
+```
+
+3. Import your `project.json` in the app. You should be able to see the videos. Click the **"Generate"** button to test AI functionalities.
 
 ## Data Folder Structure
 
