@@ -12,7 +12,7 @@
 [![Demo Video](https://img.shields.io/badge/Demo%20Video-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=PKedELJ4XT0)
 
 This tool supports the paper:  
-**[GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](https://arxiv.org/abs/2603.24329)** For more details, visit the [project website](https://hats-ict.github.io/gameplayqa/).
+**[GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](https://arxiv.org/abs/2603.24329)** For more details, visit the **[project website](https://hats-ict.github.io/gameplayqa/)**.
 
 <div align="center">
   <img src="public/interface_multi.jpg" alt="Multi-video interface" width="48%" />
