@@ -122,3 +122,20 @@ Create a JSON file to define your labeling project:
 5. Drag on the timeline to create labels
 6. Double-click labels to add captions
 7. Click "Save Annotation" to export
+
+---
+
+## Citation
+
+If you find this project helpful, please consider citing our paper:
+
+```bibtex
+@article{wang2026gameplayqa,
+  title   = {GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents},
+  author  = {Wang, Yunzhe and Xu, Runhui and Zheng, Kexin and Zhang, Tianyi and Kogundi, Jayavibhav Niranjan and Hans, Soham and Ustun, Volkan},
+  year    = {2026},
+  eprint  = {2603.24329},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url     = {https://arxiv.org/abs/2603.24329}
+}
