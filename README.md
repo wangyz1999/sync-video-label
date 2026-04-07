@@ -27,6 +27,9 @@ This tool supports the paper:
   </a>
 </div>
 
+## Updates
+- 04/06/2026 Our paper is accepted to ACL 2026 !
+
 ## Live Demo
 
 A live demo is hosted here: **[https://sync-video-label.vercel.app](https://sync-video-label.vercel.app)**
