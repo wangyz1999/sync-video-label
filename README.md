@@ -10,6 +10,7 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-GameplayQA-blue?logo=github)](https://hats-ict.github.io/gameplayqa/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-FF0066?logo=arxiv)](https://arxiv.org/abs/2603.24329)
 [![Demo Video](https://img.shields.io/badge/Demo%20Video-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=PKedELJ4XT0)
+![ACL 2026](https://img.shields.io/badge/ACL-2026-purple)
 
 This tool supports the paper:  
 **[GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](https://arxiv.org/abs/2603.24329)** For more details, visit the **[project website](https://hats-ict.github.io/gameplayqa/)**.
